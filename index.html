@@ -4,6 +4,57 @@
     <meta charset="UTF-8">
     <title>Heshan Sandaruwan</title>
     <link rel="stylesheet" href="assets/styles/normalize.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins',sans-serif;
+            text-decoration: none;
+            list-style: none;
+        }
+        .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 35px 12%;
+            background: rgba(0, 0 , 0, 0.8);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+        }
+        .logo{
+            font-size: 25px;
+            color: white;
+            font-weight: 600;
+            transition: 0.3s ease;
+        }
+        .logo:hover{
+            color: orangered;
+            text-shadow: 0 0 25px orangered,
+                         0 0 50px orangered;
+            transform: scale(1.1);
+        }
+        span{
+            color: orangered;
+        }
+        .navbar a{
+            font-size: 18px;
+            color: white;
+            font-weight: 500;
+            margin: 0 20px;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s ease;
+        }
+        .navbar a:hover,
+        .navbar a.active{
+            color: orangered;
+            border-bottom: 3px solid orangered;
+        }
+    </style>
 </head>
 <body>
 <header class="header">
@@ -41,7 +92,7 @@
     <div class="about-content">
         <h2 class="heading">About<span>Me</span></h2>
         <h3>Web<span>Developer</span></h3>
-        <p>Hi, I'm Shashi, a passionate Software Engineering student with a keen interest in coding, embedded systems, IoT, and the latest tech trends. I love exploring new technologies and solving problems through creative coding.</p>
+        <p>Hi, I'm Sandaru, a passionate Software Engineering student with a keen interest in coding, embedded systems, IoT, and the latest tech trends. I love exploring new technologies and solving problems through creative coding.</p>
         <a href="#" class="btn2">Experience</a>
     </div>
 </section>
