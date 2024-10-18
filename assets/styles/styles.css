@@ -278,7 +278,9 @@ span{
     color: white;
 }
 
-/* Large Devices (Laptops/Desktops) */
+
+
+/*Media queries*/
 @media (min-width: 1024px) {
     .header {
         padding: 35px 12%;
@@ -301,7 +303,6 @@ span{
     }
 }
 
-/* Medium Devices (Tablets) */
 @media (min-width: 768px) and (max-width: 1023px) {
     .header {
         padding: 25px 8%;
@@ -328,7 +329,7 @@ span{
     }
 }
 
-/* Small Devices (Mobile Phones) */
+
 @media (max-width: 767px) {
     .header {
         flex-direction: column;
